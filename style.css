@@ -1,16 +1,14 @@
-   
-div {  
-    box-sizing: border-box; 
-    width: 100%; 
-    border: 100px solid black; 
-} 
-   
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 form {                                         
     margin: 0 auto; 
     width: 600px;
     text-align: center;
     border: 1px Solid black;
     background-color: aliceblue;
+    padding-top: 20px;
 }
 
 form>p{
@@ -20,10 +18,53 @@ form>p{
 
 }
 input{
+    text-align: center;
     width: 300px;
-    margin-left: 2%;
-    float: inline-end;
+    margin-left: 25px;
+    float: left;
 }
 .alert{
     color: red;
+}
+.success{
+    color: green;
+    font-size: larger;
+    margin-bottom: 15px;
+}
+.btnn{
+    width: 90px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    color: aliceblue;
+    background-color: blue;
+}
+.btnn:hover{
+    background-color: darkcyan;
+}
+
+#name{
+    position: relative;
+    right: -35px;
+}
+
+#address{
+    position: relative;
+    right: -30px;
+}
+
+#email{
+    position: relative;
+    right: -39px;
+}
+
+#pwd{
+    position: relative;
+    right: -30px;
+}
+
+#phone{
+    position: relative;
+    right: -39px;
 }
